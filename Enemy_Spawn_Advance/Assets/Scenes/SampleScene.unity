@@ -180,6 +180,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4460516307958848726, guid: 5c2b7370266b94c1ebb8bf8157554860, type: 3}
+      propertyPath: _enemy
+      value: 
+      objectReference: {fileID: 4486380786288050779, guid: 933a0e67b764040e690b5aac984e53e6, type: 3}
+    - target: {fileID: 4460516307958848726, guid: 5c2b7370266b94c1ebb8bf8157554860, type: 3}
       propertyPath: _target
       value: 
       objectReference: {fileID: 824427930}
@@ -497,6 +501,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3532336959226566151, guid: 5c2b7370266b94c1ebb8bf8157554860, type: 3}
   m_PrefabInstance: {fileID: 4736719870373063714}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &754517636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4460516307958848726, guid: 5c2b7370266b94c1ebb8bf8157554860, type: 3}
+  m_PrefabInstance: {fileID: 4736719870373063714}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2787557d369d44b688a2ad713901737e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &824427930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6041656744284647851, guid: 0f6f38a6528d149e084aefab06e2e7d1, type: 3}
@@ -698,6 +713,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2061465785}
+    - target: {fileID: 4003511628909101495, guid: 0f6f38a6528d149e084aefab06e2e7d1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6041656744284647851, guid: 0f6f38a6528d149e084aefab06e2e7d1, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -808,15 +827,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed133e632fede4517b080e58d3e342cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemies:
-  - {fileID: 4505662563444145601, guid: 0fd943741839d452ca6af77f5579d302, type: 3}
-  - {fileID: 4486380786288050779, guid: 933a0e67b764040e690b5aac984e53e6, type: 3}
-  _spawners:
-  - {fileID: 754517635}
-  - {fileID: 1906883053}
-  _targets:
-  - {fileID: 1930636669}
-  - {fileID: 824427930}
+  _spawnAreas:
+  - {fileID: 754517636}
+  - {fileID: 1906883054}
 --- !u!4 &1524952629
 Transform:
   m_ObjectHideFlags: 0
@@ -1760,6 +1773,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3532336959226566151, guid: 5c2b7370266b94c1ebb8bf8157554860, type: 3}
   m_PrefabInstance: {fileID: 2189379}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1906883054 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4460516307958848726, guid: 5c2b7370266b94c1ebb8bf8157554860, type: 3}
+  m_PrefabInstance: {fileID: 2189379}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2787557d369d44b688a2ad713901737e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1930636669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6041656744284647851, guid: 0f6f38a6528d149e084aefab06e2e7d1, type: 3}
@@ -2053,6 +2077,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4460516307958848726, guid: 5c2b7370266b94c1ebb8bf8157554860, type: 3}
+      propertyPath: _enemy
+      value: 
+      objectReference: {fileID: 4505662563444145601, guid: 0fd943741839d452ca6af77f5579d302, type: 3}
+    - target: {fileID: 4460516307958848726, guid: 5c2b7370266b94c1ebb8bf8157554860, type: 3}
       propertyPath: _target
       value: 
       objectReference: {fileID: 1930636669}
@@ -2095,6 +2123,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 475197335}
+    - target: {fileID: 4003511628909101495, guid: 0f6f38a6528d149e084aefab06e2e7d1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6041656744284647851, guid: 0f6f38a6528d149e084aefab06e2e7d1, type: 3}
       propertyPath: m_RootOrder
       value: -1

@@ -51,6 +51,7 @@
      <Compile Include="Assets/Scripts/SpawnArea.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Scripts" />
+     <Folder Include="Assets/Materials" />
      <Folder Include="Assets/Scenes" />
      <Folder Include="Assets/Prefabs" />
      <Folder Include="Assets/ProBuilder Data" />
